@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+
+
+<body>
+    <div class="login-container">
+
+        <div class="login-inner-container">
+            <h2>Login Page</h2>
+
+
+            <form>
+                    <label>Email</label>
+
+                <div class="each-input">
+                    <input placeholder="Email" type="email" />
+                </div>
+                    <label>Password</label>
+
+                <div class="each-input">
+                    <input placeholder="Password" type="password" />
+                </div>
+
+
+                <div class="each-input">
+                    <button>Login</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+
+<style>
+    body{
+        margin: 0;
+    }
+
+    h2{
+        text-align: center;
+        color: brown;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .login-container {
+        background-color: rgb(40, 40, 40);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        /* 100vh means 100% of view height */
+    }
+
+    .login-inner-container{
+        background-color: white;
+        padding: 20px;
+        width: 40%;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+
+    .each-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        /* block is for arranging containers on top of each other */
+
+        /* flex is for arranging containers beside each other */
+    }
+
+    label{
+        font-size: 20px;
+        color: blue;
+        display: flex;
+        justify-content: center;
+    }
+
+    .each-input input{
+        padding: 10px;
+        margin: 10px;
+        width: 40%;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 20px;
+    }
+
+    .each-input button{
+        color: white;
+        background-color: blue;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        width: 40%;
+        font-size: 20px;
+    }
+
+    
+</style>
+
+
+</html>
