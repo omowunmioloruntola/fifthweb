@@ -15,7 +15,17 @@
         <a href="#Talk with us +2348083605998">Talk with us +2348083605998</a>
     </div>   
     <div class="nav-bar">
-
+        <div class="nav-bar-left">
+            <div class="each-nav-bar-item"> 
+            <img src="./image/whitehouse-2.png" alt="whitehouse-2" class="nav-bar-whitehouse-2" />
+         <a href="active">Guardian</a>
+        </div>
+        <a href="Home">Home</a>
+        <a href="Practice Areas">Practice Areas</a>
+        <a href="About Us">About Us</a>
+        <a href="Case Studies">Case Studies</a>
+        <a href="Blog">Blog</a>
+        <a href="Free Consultation">Free Consultation</a>
     </div>
 </body>
 <style>
@@ -25,10 +35,20 @@
     }
     .topnav {
         display: flex;
-        justify-content: space-between2111111111111111121 ;
+        justify-content: space-between;
         overflow: hidden;
         background-color: rgb(5, 82, 78);
-    }.topnav a {
+    }
+    .topnav-left {
+        display: flex;
+    }
+    .each-topnav-item{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .topnav a {
         float: left;
         color: whitesmoke;
         text-align:center;
@@ -39,6 +59,36 @@
    .topnav a.active{
       background-color: #ddd;
       color: white;
+   }
+   body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: whitesmoke;
+   }
+    .nav-bar-left {
+        display: flex;
+    }
+    .each-nav-bar-item{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+   .nav-bar a {
+    float: left;
+    color: goldenrod;
+    text-align: center;
+    padding: 17px;
+    text-decoration: dotted;
+    font-size: 14px;
+   }
+   .nav-bar a.active{
+    background-color: #ddd;
+    color: black;
    }
 </style>
 </html>
