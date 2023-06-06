@@ -15,17 +15,23 @@
         <a href="#Talk with us +2348083605998">Talk with us +2348083605998</a>
     </div>   
     <div class="nav-bar">
-        <div class="nav-bar-left">
-            <div class="each-nav-bar-item"> 
-            <img src="./image/whitehouse-2.png" alt="whitehouse-2" class="nav-bar-whitehouse-2" />
+        <div class="nav-bar-left"> 
+            <img src="./image/court.png" alt="whitehouse-2" class="logo" />
          <a href="active">Guardian</a>
         </div>
-        <a href="Home">Home</a>
-        <a href="Practice Areas">Practice Areas</a>
-        <a href="About Us">About Us</a>
-        <a href="Case Studies">Case Studies</a>
-        <a href="Blog">Blog</a>
-        <a href="Free Consultation">Free Consultation</a>
+        <div class="nav-bar-center">
+             <a href="Home">Home</a> 
+             <a href="Practice Areas">Practice Areas</a>
+             <a href="About Us">About Us</a>
+             <a href="Case Studies">Case Studies</a>
+             <a href="Blog">Blog</a>
+        </div>
+
+        <div class=" nav-bar-right"> 
+           <button>Free Consultation</button>
+         </div>
+    </div>
+    <div class="col-1">
     </div>
 </body>
 <style>
@@ -69,9 +75,30 @@
     justify-content: space-between;
     overflow: hidden;
     background-color: whitesmoke;
+    padding: 10px;
    }
     .nav-bar-left {
         display: flex;
+        align-items: center;
+    }
+    .nav-bar-centre {
+        display: flex;
+        align-items: center;
+    }
+    .nav-bar-right {
+        display: flex;
+        padding-right: 20px;
+
+    }
+    .nav-bar-right button {
+        background-color: goldenrod;
+        border: none;
+        padding-left: 25px;
+        padding-right: 25px;
+
+    }
+    .logo {
+        width: 45px;
     }
     .each-nav-bar-item{
         display: flex;
@@ -90,5 +117,13 @@
     background-color: #ddd;
     color: black;
    }
+   .col-1{
+    width: 100%;
+    height: 80vh;
+    background: url('./image/shouting.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
 </style>
-</html>
+</html> 
